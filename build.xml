@@ -6,8 +6,9 @@
     <description>Builds, tests, and runs the project org.apache.commons.vfs2.</description>
     <import file="nbproject/build-impl.xml"/>
     
-    <target name="release" depends="files-init" if="has.release.dir">
+    <target name="release" depends="files-init">
         <echo>Creating releases folder (classes, source and Javadoc archives)</echo>  
+        <mkdir dir="${release.dir}/libs"/>
         <copy todir="${release.dir}/libs" overwrite="true">
             <fileset dir="lib">
                 <patternset includes="*.jar"/>
