@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.apisupport.project</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/nb-module-project/3">
+            <code-name-base>org.apache.commons.vfs2</code-name-base>
+            <suite-component/>
+            <module-dependencies/>
+            <public-packages>
+                <package>org.apache.commons.vfs2</package>
+                <package>org.apache.commons.vfs2.auth</package>
+                <package>org.apache.commons.vfs2.cache</package>
+                <package>org.apache.commons.vfs2.events</package>
+                <package>org.apache.commons.vfs2.impl</package>
+                <package>org.apache.commons.vfs2.operations</package>
+                <package>org.apache.commons.vfs2.operations.vcs</package>
+                <package>org.apache.commons.vfs2.provider</package>
+                <package>org.apache.commons.vfs2.provider.bzip2</package>
+                <package>org.apache.commons.vfs2.provider.compressed</package>
+                <package>org.apache.commons.vfs2.provider.ftp</package>
+                <package>org.apache.commons.vfs2.provider.ftps</package>
+                <package>org.apache.commons.vfs2.provider.gzip</package>
+                <package>org.apache.commons.vfs2.provider.http</package>
+                <package>org.apache.commons.vfs2.provider.https</package>
+                <package>org.apache.commons.vfs2.provider.jar</package>
+                <package>org.apache.commons.vfs2.provider.local</package>
+                <package>org.apache.commons.vfs2.provider.ram</package>
+                <package>org.apache.commons.vfs2.provider.res</package>
+                <package>org.apache.commons.vfs2.provider.sftp</package>
+                <package>org.apache.commons.vfs2.provider.tar</package>
+                <package>org.apache.commons.vfs2.provider.temp</package>
+                <package>org.apache.commons.vfs2.provider.url</package>
+                <package>org.apache.commons.vfs2.provider.webdav</package>
+                <package>org.apache.commons.vfs2.provider.zip</package>
+                <package>org.apache.commons.vfs2.tasks</package>
+                <package>org.apache.commons.vfs2.util</package>
+            </public-packages>
+            <class-path-extension>
+                <runtime-relative-path>ext/commons-vfs2-2.0.jar</runtime-relative-path>
+                <binary-origin>release/modules/ext/commons-vfs2-2.0.jar</binary-origin>
+            </class-path-extension>
+        </data>
+    </configuration>
+</project>

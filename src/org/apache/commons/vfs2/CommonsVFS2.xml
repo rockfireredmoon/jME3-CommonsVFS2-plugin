@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+    <name>CommonsVFS2</name>
+    <type>j2se</type>
+    <localizing-bundle>org.apache.commons.vfs2.Bundle</localizing-bundle>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:nbinst://org.apache.commons.vfs2/libs/commons-vfs2-2.0.jar!/</resource>
+    </volume>
+</library>
